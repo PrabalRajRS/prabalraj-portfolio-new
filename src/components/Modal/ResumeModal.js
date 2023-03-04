@@ -17,7 +17,7 @@ const ResumeModal = ({ isModalOpen, setIsModalOpen }) => {
             aria-describedby="alert-dialog-slide-description"
         >
             <div className="dialog-content">
-                <img className="dialog-image" src={welcomeIcon} />
+                <img className="dialog-image" src={welcomeIcon} alt="welcome" />
                 <div>
                     <h2>Hello!</h2>
                     <p>Thanks for stopping by.</p>

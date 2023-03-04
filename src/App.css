@@ -9,6 +9,20 @@
   background-size: contain; */
 }
 
+.card {
+  transform: translateX(100%);
+  animation: slide-in 0.7s ease-out forwards;
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
 .light {
   --clr-bg: rgb(252, 252, 252);
   --clr-bg-alt: #fff;

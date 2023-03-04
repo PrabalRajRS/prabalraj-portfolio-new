@@ -8,7 +8,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Prabal Raj',
-  role: 'Front End Developer',
+  role: 'React Js Developer',
   description: '2+ years of experience in React JS and front-end development. Proficient in designing user interfaces and building dynamic web apps. Skilled in HTML, CSS, JavaScript, and React libraries. Strong debugging and optimization skills, focused on delivering top-notch user experiences.',
   resume: file,
   social: {

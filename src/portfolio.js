@@ -1,4 +1,4 @@
-import file from './files/prabalResume.pdf';
+import file from './files/prabal-raj-resume.pdf';
 const header = {
   // all the properties are optional - can be left empty or deleted
   // homepage: 'https://rajshekhar26.github.io/cleanfolio',

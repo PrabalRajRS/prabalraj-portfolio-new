@@ -24,10 +24,8 @@ const About = () => {
 
   return (
     <div className='about_body'>
-      <div className='about card p10'>
-        <img className='profile_pic' src={Prabal1} alt={Prabal1} />
-      </div>
-      <div className='about card'>
+      <img className='profile_pic' src={Prabal1} alt={Prabal1} />
+      <div className='about'>
         {name && (
           <div className="about__container">
             <img src={reactLogo} alt={reactLogo} />

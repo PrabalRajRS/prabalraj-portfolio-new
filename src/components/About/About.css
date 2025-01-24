@@ -1,6 +1,7 @@
 .about_body {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  height: 500px;
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -9,13 +10,13 @@
 .profile_pic {
   border-radius: 30px;
   flex: 0 1 auto;
-  max-width: 30%;
+  max-width: 35%;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: center;
   margin-top: 3em;
   padding: 10px;
   min-width: 300px; 

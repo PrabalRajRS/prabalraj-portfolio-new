@@ -81,20 +81,20 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'React',
-  'Redux',
-  'React Native',
-  'Ionic React',
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'SASS',
-  'Material UI',
-  'React Bootstrap',
-  'AntDesign',
-  'Node.js',
-  'Firebase',
-  'Git',
+  {name : 'React', percentage: 95},
+  {name: 'Redux', percentage: 90},
+  {name: 'React Native', percentage: 75},
+  {name: 'HTML', percentage: 90},
+  {name: 'CSS', percentage: 90},
+  {name: 'JavaScript', percentage: 85},
+  {name: 'SASS', percentage: 80},
+  {name: 'Material UI', percentage: 80},
+  {name: 'React Bootstrap', percentage: 80},
+  {name: 'AntDesign', percentage: 80},
+  {name: 'Node.js', percentage: 60},
+  {name: 'Firebase', percentage: 60},
+  {name: 'Ionic React', percentage: 55},
+  {name:'Git', percentage: 85},
 ]
 
 const contact = {

@@ -10,8 +10,8 @@ const Skills = () => {
       <h2 className='section__title'>Skills</h2>
       <ul className='skills__list'>
         {skills.map((skill) => (
-          <li key={uniqid()} className='skills__list-item btn btn--plain'>
-            {skill}
+          <li key={uniqid()} className='skills__list-item btn btn--plain' style={{color: 'white', background: `linear-gradient(to right, var(--clr-primary) ${skill.percentage}%, transparent 30%)`}}>
+            {skill.name}
           </li>
         ))}
       </ul>

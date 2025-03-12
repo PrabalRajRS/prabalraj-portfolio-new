@@ -3,6 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { about } from '../../portfolio'
 import reactLogo from '../../files/react.png';
 import Prabal1 from '../../files/prabal1.png'
+import Prabal2 from '../../files/prabal2.jpeg';
 import './About.css'
 import { TypeAnimation } from 'react-type-animation';
 

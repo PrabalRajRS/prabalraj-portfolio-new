@@ -9,7 +9,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Prabal Raj',
   role: 'React Js Developer',
-  description: '3.7 years of experience in React JS and front-end development. Proficient in designing user interfaces and building dynamic web apps. Skilled in HTML, CSS, JavaScript, and React libraries. Strong debugging and optimization skills, focused on delivering top-notch user experiences.',
+  description: '4.5 years of experience in React JS and front-end development. Proficient in designing user interfaces and building dynamic web apps. Skilled in HTML, CSS, JavaScript, and React libraries. Strong debugging and optimization skills, focused on delivering top-notch user experiences.',
   resume: file,
   social: {
     linkedin: 'https://www.linkedin.com/in/prabal-raj-r-b2ba44204/',
@@ -76,6 +76,14 @@ const projects = [
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
   },
+  {
+    name: 'Nutanix - Infrastructure',
+    description:
+      'Nutanix infrastructure alerts help monitor cluster health, performance, and failures in real time for proactive issue resolution.',
+    stack: ['React', 'Redux', 'Prism UI'],
+    // sourceCode: 'https://github.com',
+    // livePreview: 'https://github.com',
+  },
 ]
 
 const skills = [
@@ -94,7 +102,8 @@ const skills = [
   {name: 'Node.js', percentage: 60},
   {name: 'Firebase', percentage: 60},
   {name: 'Ionic React', percentage: 55},
-  {name:'Git', percentage: 85},
+  {name: 'Git', percentage: 85},
+  {name: 'Gerrit', percentage: 80},
 ]
 
 const contact = {
